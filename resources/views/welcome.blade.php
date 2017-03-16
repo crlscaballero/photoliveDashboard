@@ -178,9 +178,11 @@ a{
 </head>
     
 <body>
-    <img class="row center-block" src="img/logoh.png" style="position:absolute; z-index:100; margin-top:23px;">
+        <img class="row center-block" src="img/logoh.png" style="position:absolute; z-index:100; margin-top:23px;">
+    
     <div class="center-block" style="margin-top:0px;">
         <b class="center-block inline-block">   
+        
         <img id="galaw" src="img/Bannerp.jpg">
         </b>  
     </div>
@@ -209,6 +211,7 @@ a{
         <div id="page-content-wrapper">
             <div class="row">
                 <div class="col-md-12" style="">
+                <img class="img-responsive center-block" src="img/homedes.png"/>
                 </div>
             </div>
 
