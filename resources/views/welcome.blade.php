@@ -42,7 +42,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li><a href="#" id="dis"><img id="imge" src="img/homeq.png"/>&nbsp &nbsp Home</a></li>
-                <li><a href="#"><img id="imge" src="img/dash.png"/>&nbsp &nbsp Dashboard</a></li>
+                <li><a href="dashboard.php"><img id="imge" src="img/dash.png"/>&nbsp &nbsp Dashboard</a></li>
                 <li><a href="#"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Clients</a></li>
                 <li><a href="#"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Events</a></li>
                 <li><a href="#"><img id="imge" src="img/photoq.png"/>&nbsp &nbsp Photos</a></li>
