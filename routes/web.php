@@ -31,4 +31,8 @@ Route::get('photo', function () {
     return view('photo');
 });
 
+Route::get('frame', function () {
+    return view('frame');
+});
+
 

@@ -60,40 +60,20 @@
             </div>
         </div>
         
-        
+        <div class="panel panel-default center-block" style="width: 1000px; height:480px; background-color: #a8b8ae;">
+        <div class="panel-body">
 
-        <div class="panel panel-default center-block" style="width: 775px; height:450px; background-color: #a8b8ae;">
-            <div class="panel-body">
-            <div class="btn-group" style="margin-left: 5px;">
-                    <button type="button" class="btn btn-primary" style="width:130px;">View By</button>
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                    <span class="caret"></span>
-                    </button>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Albums</a></li>
-            </ul>
-                </div>
-                <div class="btn-group" style="margin-left: 263px;">
-                    <button type="button" class="btn btn-primary" style="width:130px;">Upload</button>
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                    <span class="caret"></span>
-                    </button>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Photo</a></li>
-                <li><a href="#">Album</a></li>
-            </ul>
-                </div>
-                <button type="button" class="btn btn-primary" style="width:130px;">Delete</button>
-            </div>
             <div>
-            <img class="row center-block" src="img/jewl.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 20px; height: 200px; width: 170px;">
-            <img class="row center-block" src="img/padidas.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 200px; height: 200px; width: 170px;">
-            <img class="row center-block" src="img/logooo.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 380px; height: 200px; width: 170px;">
-            <img class="row center-block" src="img/ppadidas.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 560px; height: 200px; width: 170px;">
+                <img class="img-rounded" src="img/adidassmall.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 20px; height: 200px; width: 170px;">
+                <img class="img-rounded" src="img/pcoms.jpg" style="position:absolute; z-index:100; margin-top: 225px; margin-left: 20px; height: 200px; width: 170px;">
             </div>
+
+                <img class="img-rounded" src="img/framea.jpg" style="position:absolute; z-index:100; margin-top: 65px; margin-left: 285px; height: 300px; width: 600px;">
             
         </div>
+        </div>
+
+        
         
         
         <!-- /#page-content-wrapper -->

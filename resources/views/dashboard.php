@@ -65,7 +65,7 @@
                 	<button class="btn btn-info" style="width:130px;">Frames</button>
                 </div>
 				
-				<div class="panel panel-default center-block" style="width: 775px; height:450px;">
+				<div class="panel panel-default center-block" style="width: 775px; height:450px; background-color: #a8b8ae;">
   					<div class="panel-body">
   						
   					</div>
