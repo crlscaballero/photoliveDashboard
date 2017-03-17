@@ -11,6 +11,24 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('welcome', function () {
     return view('welcome');
 });
+
+Route::get('dashboard', function() {
+	return view('dashboard');
+});
+
+Route::get('client', function () {
+    return view('client');
+});
+
+Route::get('event', function () {
+    return view('event');
+});
+
+Route::get('photo', function () {
+    return view('photo');
+});
+
+

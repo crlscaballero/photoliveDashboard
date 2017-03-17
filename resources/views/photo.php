@@ -41,11 +41,11 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li><a href="#" id="dis"><img id="imge" src="img/homeq.png"/>&nbsp &nbsp Home</a></li>
+                <li><a href="#"><img id="imge" src="img/homeq.png"/>&nbsp &nbsp Home</a></li>
                 <li><a href="dashboard"><img id="imge" src="img/dash.png"/>&nbsp &nbsp Dashboard</a></li>
                 <li><a href="client"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Clients</a></li>
                 <li><a href="event"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Events</a></li>
-                <li><a href="photo"><img id="imge" src="img/photoq.png"/>&nbsp &nbsp Photos</a></li>
+                <li><a href="photo" id="dis"><img id="imge" src="img/photoq.png"/>&nbsp &nbsp Photos</a></li>
                 <li><a href="frame"><img id="imge" src="img/frameq.png"/>&nbsp &nbsp Frames</a></li>
                 <li><a href="contact"><img id="imge" src="img/contactq.png"/>&nbsp &nbsp Contacts</a></li>
                 <li><a href="about"><img id="imge" src="img/aboutq.png"/>&nbsp &nbsp About</a></li></ul>
@@ -56,17 +56,29 @@
         <div id="page-content-wrapper">
             <div class="row">
                 <div class="col-md-12" style="">
-                <img class="img-responsive center-block" src="img/homedes.png"/>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 text-center" style="">
-                <button class="center-block" style="border-style:none; width:140px; height:35px; background-image: url(img/begin.png);"></button>
-                <label class="text-center" style="font-size:10px;">PRESS TO START</label>
                 </div>
             </div>
         </div>
+        
+        
+
+        <div class="panel panel-default center-block" style="width: 775px; height:450px;">
+            <div class="panel-body">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary" style="width:130px;">Upload</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                    </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Photo</a></li>
+                <li><a href="#">Album</a></li>
+            </ul>
+                </div>
+                <button type="button" class="btn btn-primary" style="width:130px;">Delete</button>
+            </div>
+        </div>
+        
+        
         <!-- /#page-content-wrapper -->
 <script>
     $("#menu-toggle").click(function(e) {
