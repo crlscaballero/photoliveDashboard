@@ -56,16 +56,17 @@
         <div id="page-content-wrapper">
             <div class="row">
                 <div class="col-md-12 text-center">
-                <div class="btn-group">
-                	<button class="btn btn-info" style="width:130px;">Clients</button>
-                	<button class="btn btn-info" style="width:130px;">Events</button>
-                	<button class="btn btn-info" style="width:130px;">Database</button>
-                	<button class="btn btn-info" style="width:130px;">Photos</button>
-                	<button class="btn btn-info" style="width:130px;">Design</button>
-                	<button class="btn btn-info" style="width:130px;">Frames</button>
-                </div>
-				
-				<div class="panel panel-default center-block" style="width: 775px; height:450px;">
+				<div class="panel panel-default center-block" style="width: 850px; height:450px;">
+                    <div class="panel-heading">
+                    <div class="btn-group">
+                        <button class="btn btn-info" style="width:130px;">Clients</button>
+                        <button class="btn btn-info" style="width:130px;">Events</button>
+                        <button class="btn btn-info" style="width:130px;">Database</button>
+                        <button class="btn btn-info" style="width:130px;">Photos</button>
+                        <button class="btn btn-info" style="width:130px;">Design</button>
+                        <button class="btn btn-info" style="width:130px;">Frames</button>
+                    </div>
+                    </div>
   					<div class="panel-body">
   						
   					</div>

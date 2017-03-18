@@ -16,12 +16,12 @@
 </head>
 
 <style>
-    body{
+	body{
         background-image:url("../img/bg.jpg");
         background-repeat: no-repeat;
     }
 </style>
-    <body>
+	<body>
         <img class="row center-block" src="img/logoh.png" style="position:absolute; z-index:100; margin-top:23px; margin-left: 20px;">
     
     <div class="center-block" style="margin-top:0px;">
@@ -42,8 +42,8 @@
             <ul class="sidebar-nav">
                 <li><a href="welcome"><img id="imge" src="img/homeq.png"/>&nbsp &nbsp Home</a></li>
                 <li><a href="dashboard"><img id="imge" src="img/dash.png"/>&nbsp &nbsp Dashboard</a></li>
-                <li><a href="client"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Clients</a></li>
-                <li><a href="event" id="dis"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Events</a></li>
+                <li><a href="client" id="dis"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Clients</a></li>
+                <li><a href="event"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Events</a></li>
                 <li><a href="photo"><img id="imge" src="img/photoq.png"/>&nbsp &nbsp Photos</a></li>
                 <li><a href="frame"><img id="imge" src="img/frameq.png"/>&nbsp &nbsp Frames</a></li>
                 <li><a href="contact"><img id="imge" src="img/contactq.png"/>&nbsp &nbsp Contacts</a></li>
@@ -56,35 +56,25 @@
             <div class="row">
                 <div class="col-md-12" style="">
 <div class="container">
-  <h2>EVENTS</h2>          
+  <h2>CLIENTS</h2>          
   <table class="table table-hover">
     <thead>
       <tr>
-        <th>VENUE</th>
-        <th>PERSON IN CHARGE</th>
-        <th>EMAIL</th>
-        <th>DETAILS</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Contact Number</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Bonifacio Global City</td>
-        <td>Allan Cruz</td>
-        <td>allan.Allan@medix.com</td>
-        <td>Team Building - 3:00pm - March 20, 2017</td>
-      </tr>
-      <tr>
-        <td>Gateway Mall</td>
-        <td>Beatrice Santos</td>
-        <td>bea.Bea@medix.com</td>
-        <td>PCOMS - 10:00am - April 15, 2017</td>
-      </tr>
-      <tr>
-        <td>Shangri-La Mall</td>
-        <td>Carlos Saclolo</td>
-        <td>carlos.Carlos@medix.com</td>
-        <td>Adidas - 1:00pm - May 15, 2017</td>
-      </tr>
+      @foreach($clients as $client)
+        <tr>
+            <td>{{ $client->firstname }} </td>
+            <td>{{ $client->lastname }}</td> 
+            <td>{{ $client->email }}</td>        
+            <td>{{ $client->contacts }} </td>
+        </tr>
+       @endforeach
     </tbody>
   </table>
 
@@ -94,7 +84,6 @@
             <button class="btn btn-info" style="width:130px;">Delete</button>
         </div>
 </div>
-                
                     
                 
                 </div>
@@ -116,45 +105,40 @@
         <div id="loginbox" style="margin-top:50px; width: 600px;">                    
             <div class="panel panel-info" >
                     <div class="panel-heading">
-                        <div class="panel-title">Add Event</div>
+                        <div class="panel-title">Add Client</div>
                     </div>     
 
                     <div style="padding-top:30px" class="panel-body" >
 
                         <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
                             
-                        <form id="loginform" class="form-horizontal" role="form">
+                        <form method="POST" action="client" id="loginform" class="form-horizontal" role="form">
                                     
                             <div style="margin-bottom: 25px" class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
-                                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Venue">                                        
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input id="login-username" type="text" class="form-control" name="firstname" value="" placeholder="Firstname">                                        
                                     </div>
                                 
                             <div style="margin-bottom: 25px" class="input-group">
                                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                        <input id="login-password" type="password" class="form-control" name="password" placeholder="Person in charge">
+                                        <input id="login-password" type="text" class="form-control" name="lastname" placeholder="Lastname">
                             </div>
                     
                             <div style="margin-bottom: 25px" class="input-group">
                                         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                        <input id="login-password" type="password" class="form-control" name="password" placeholder="Email">
+                                        <input id="login-password" type="text" class="form-control" name="email" placeholder="Email">
                             </div> 
 
                             <div style="margin-bottom: 25px" class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pushpin"></i></span>
-                                        <input id="login-password" type="password" class="form-control" name="password" placeholder="Details">
-                            </div>
-
-                            <div style="margin-bottom: 25px" class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-                                        <input id="login-password" type="password" class="form-control" name="password" placeholder="Date">
-                            </div>        
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                                        <input id="login-password" type="text" class="form-control" name="contacts" placeholder="Contact Number">
+                            </div>       
 
                                 <div style="margin-top:10px" class="form-group">
                                     <!-- Button -->
 
                                     <div class="col-sm-12 controls">
-                                      <a id="btn-login" href="#" class="btn btn-info pull-right"> Save </a>
+                                      <button id="btn-login" class="btn btn-info pull-right"> Save </button>
                                     </div>
                                 </div>   
                             </form>   
@@ -167,5 +151,5 @@
   </div>
 
     </div>
-    </body>
+	</body>
 </html>

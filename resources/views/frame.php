@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ config('app.locale') }}">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,14 +15,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
 </head>
-
+    
 <style>
-	body{
+    body{
         background-image:url("../img/bg.jpg");
         background-repeat: no-repeat;
     }
 </style>
-	<body>
+<body>
         <img class="row center-block" src="img/logoh.png" style="position:absolute; z-index:100; margin-top:23px; margin-left: 20px;">
     
     <div class="center-block" style="margin-top:0px;">
@@ -40,12 +41,12 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li><a href="#"><img id="imge" src="img/homeq.png"/>&nbsp &nbsp Home</a></li>
+                <li><a href="welcome"><img id="imge" src="img/homeq.png"/>&nbsp &nbsp Home</a></li>
                 <li><a href="dashboard"><img id="imge" src="img/dash.png"/>&nbsp &nbsp Dashboard</a></li>
-                <li><a href="client" id="dis"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Clients</a></li>
+                <li><a href="client"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Clients</a></li>
                 <li><a href="event"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Events</a></li>
                 <li><a href="photo"><img id="imge" src="img/photoq.png"/>&nbsp &nbsp Photos</a></li>
-                <li><a href="frame"><img id="imge" src="img/frameq.png"/>&nbsp &nbsp Frames</a></li>
+                <li><a href="frame" id="dis"><img id="imge" src="img/frameq.png"/>&nbsp &nbsp Frames</a></li>
                 <li><a href="contact"><img id="imge" src="img/contactq.png"/>&nbsp &nbsp Contacts</a></li>
                 <li><a href="about"><img id="imge" src="img/aboutq.png"/>&nbsp &nbsp About</a></li></ul>
         </div>
@@ -55,42 +56,16 @@
         <div id="page-content-wrapper">
             <div class="row">
                 <div class="col-md-12" style="">
-<div class="container">
-  <h2>CLIENTS</h2>          
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-    </tbody>
-  </table>
-            <button class="btn btn-info" style="width:130px;">Add</button>
-            <button class="btn btn-info" style="width:130px;">Edit</button>
-            <button class="btn btn-info" style="width:130px;">Delete</button>
-</div>
-                    
-                
+                <div class="panel panel-default center-block" style="margin-top:10px; width: 850px; height:425px;">
+                    <div class="panel-heading">Frames</div>
+                    <div class="panel-body" style="  height:382px; overflow-y:scroll;">
+                    <div class="text-center">
+                    <button data-toggle="modal" data-target="#myModal" style="background-image: url(img/frame_sample.png); background-color:#424242; width: 150px; height: 200px; border-style: none;  "></button>
+                    <button data-toggle="modal" data-target="#myModal" style="background-image: url(img/frame_sample1.png); background-color:#424242; width: 150px; height: 200px; border-style: none;"></button>
+                    </div>
+                    </div>
                 </div>
-            </div>
+                </div>
         </div>
         <!-- /#page-content-wrapper -->
 <script>
@@ -101,5 +76,27 @@
 </script>
 
     </div>
-	</body>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog" style="width: 830px;">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="height:530px;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+            <img class="img-responsive" src="img/imgpreview.png">
+            <button class="center-block" style="background-image:url(img/btn_choose.jpg); width:200px; height:40px; border-style: none; margin-top: -50px;"></button>
+        </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
 </html>

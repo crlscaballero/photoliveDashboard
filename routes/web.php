@@ -19,9 +19,9 @@ Route::get('dashboard', function() {
 	return view('dashboard');
 });
 
-Route::get('client', function () {
-    return view('client');
-});
+//Route::get('/client', 'clientController@index');
+Route::get('/client', 'clientController@index');
+Route::post('/client', 'clientController@store');
 
 Route::get('event', function () {
     return view('event');
@@ -29,6 +29,14 @@ Route::get('event', function () {
 
 Route::get('photo', function () {
     return view('photo');
+});
+
+Route::get('frame', function () {
+    return view('frame');
+});
+
+Route::get('contact', function () {
+    return view('contact');
 });
 
 
