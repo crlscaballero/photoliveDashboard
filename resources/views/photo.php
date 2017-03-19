@@ -57,11 +57,36 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="row">
+<<<<<<< HEAD
             <div class="col-md-12">
                 <div class="forstyle" style="margin-left: 640px;">
                 <div class="btn-group">
                     <button type="button" class="btn btn-info btn-sm" style="width:130px;">Upload</button>
                     <button type="button" class="btn btn-info btn-sm dropdown-toggle" data-toggle="dropdown">
+=======
+                <div class="col-md-12" style="">
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div class="panel panel-default center-block" style="width: 775px; height:450px; background-color: #a8b8ae;">
+            <div class="panel-body">
+            <div class="btn-group" style="margin-left: 5px;">
+                    <button type="button" class="btn btn-primary" style="width:130px;">View By</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                    </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Albums</a></li>
+            </ul>
+                </div>
+                <div class="btn-group" style="margin-left: 263px;">
+                    <button type="button" class="btn btn-primary" style="width:130px;">Upload</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+>>>>>>> origin/master
                     <span class="caret"></span>
                     </button>
                     
@@ -89,6 +114,13 @@
                 </div>
             </div>
             </div>
+            <div>
+            <img class="row center-block" src="img/jewl.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 20px; height: 200px; width: 170px;">
+            <img class="row center-block" src="img/padidas.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 200px; height: 200px; width: 170px;">
+            <img class="row center-block" src="img/logooo.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 380px; height: 200px; width: 170px;">
+            <img class="row center-block" src="img/ppadidas.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 560px; height: 200px; width: 170px;">
+            </div>
+            
         </div>
         
         <!-- /#page-content-wrapper -->
