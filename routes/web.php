@@ -35,11 +35,10 @@ Route::get('frame', function () {
     return view('frame');
 });
 
-<<<<<<< HEAD
 Route::get('contact', function () {
     return view('contact');
 });
 
-=======
->>>>>>> origin/master
-
+Route::get('about', function () {
+    return view('about');
+});

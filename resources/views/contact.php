@@ -55,9 +55,9 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="row">
-<div class="inline-block" style="height:70px; background-color:#4d4d4c;">
+<div class="inline-block" style="height:50px; background-color:#e5e7ea;">
     <div class="container">
-       <h3 class="h3" style="margin-left:200px; color:white;">
+       <h3 class="h3" style="margin-left:5px; margin-top: 10px; color: #24b7f2;">
         Contact us</h3>
     </div>
 </div>

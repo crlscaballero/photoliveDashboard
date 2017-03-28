@@ -14,11 +14,9 @@
     <script src="js/jquery.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
-
 </head>
     
 <style>
-    @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
     body{
         background-image:url("../img/bg.jpg");
         background-repeat: no-repeat;
@@ -57,13 +55,6 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="row">
-<<<<<<< HEAD
-            <div class="col-md-12">
-                <div class="forstyle" style="margin-left: 640px;">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-info btn-sm" style="width:130px;">Upload</button>
-                    <button type="button" class="btn btn-info btn-sm dropdown-toggle" data-toggle="dropdown">
-=======
                 <div class="col-md-12" style="">
                 </div>
             </div>
@@ -71,8 +62,8 @@
         
         
 
-        <div class="panel panel-default center-block" style="width: 775px; height:450px; background-color: #a8b8ae;">
-            <div class="panel-body">
+        <div class="panel panel-default center-block" style="width: 775px; height:450px; background-color: #d7dce5;">
+            <div class="panel-body" style="background-color: #e5e7ea;">
             <div class="btn-group" style="margin-left: 5px;">
                     <button type="button" class="btn btn-primary" style="width:130px;">View By</button>
                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
@@ -86,33 +77,14 @@
                 <div class="btn-group" style="margin-left: 263px;">
                     <button type="button" class="btn btn-primary" style="width:130px;">Upload</button>
                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
->>>>>>> origin/master
                     <span class="caret"></span>
                     </button>
-                    
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Photo</a></li>
-                        <li><a href="#">Album</a></li>
-                    </ul>
-                
-                <div class="input-group" style="margin-left: 120px;">
-                    <input type="text" class="form-control" placeholder="Search" name="q" style="border-radius: 30px 0px 0px 30px; width: 250px; height:30px;">
-                        <button class="btn btn-info" type="submit" style="border-radius: 0px 30px 30px 0px;
-                        height:30px;"><i class="glyphicon glyphicon-search"></i></button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Photo</a></li>
+                <li><a href="#">Album</a></li>
+            </ul>
                 </div>
-                </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="row">
-            <div class="col-md-12" style="">
-                <div class="panel panel-default center-block" style="margin-top:10px; width: 850px; height:425px;">
-                    <div class="panel-heading">Photos</div>
-                    <div class="panel-body" style="  height:382px; overflow-y:scroll;">
-                    </div>
-                </div>
-            </div>
+                <button type="button" class="btn btn-primary" style="width:130px;">Delete</button>
             </div>
             <div>
             <img class="row center-block" src="img/jewl.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 20px; height: 200px; width: 170px;">
@@ -122,6 +94,7 @@
             </div>
             
         </div>
+        
         
         <!-- /#page-content-wrapper -->
 <script>

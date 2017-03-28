@@ -57,8 +57,8 @@
             <div class="row">
                 <div class="col-md-12" style="">
                 <div class="panel panel-default center-block" style="margin-top:10px; width: 850px; height:425px;">
-                    <div class="panel-heading">Frames</div>
-                    <div class="panel-body" style="  height:382px; overflow-y:scroll;">
+                    <div class="panel-heading" style="background-color: #e5e7ea; font-size: 23px; color: #24b7f2;">FRAMES</div>
+                    <div class="panel-body" style="  height:382px; overflow-y:scroll; background-color: #d7dce5;">
                     <div class="text-center">
                     <button data-toggle="modal" data-target="#myModal" style="background-image: url(img/frame_sample.png); background-color:#424242; width: 150px; height: 200px; border-style: none;  "></button>
                     <button data-toggle="modal" data-target="#myModal" style="background-image: url(img/frame_sample1.png); background-color:#424242; width: 150px; height: 200px; border-style: none;"></button>

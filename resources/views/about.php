@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ config('app.locale') }}">
-
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +14,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
 </head>
-    
+
 <style>
-    body{
+	body{
         background-image:url("../img/bg.jpg");
         background-repeat: no-repeat;
     }
 </style>
+	<body>
 <body>
         <img class="row center-block" src="img/logoh.png" style="position:absolute; z-index:100; margin-top:23px; margin-left: 20px;">
     
@@ -42,10 +42,10 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li><a href="welcome"><img id="imge" src="img/homeq.png"/>&nbsp &nbsp Home</a></li>
-                <li><a href="dashboard"><img id="imge" src="img/dash.png"/>&nbsp &nbsp Dashboard</a></li>
+                <li><a href="dashboard" id="dis"><img id="imge" src="img/dash.png"/>&nbsp &nbsp Dashboard</a></li>
                 <li><a href="client"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Clients</a></li>
                 <li><a href="event"><img id="imge" src="img/eventq.png"/>&nbsp &nbsp Events</a></li>
-                <li><a href="photo" id="dis"><img id="imge" src="img/photoq.png"/>&nbsp &nbsp Photos</a></li>
+                <li><a href="photo"><img id="imge" src="img/photoq.png"/>&nbsp &nbsp Photos</a></li>
                 <li><a href="frame"><img id="imge" src="img/frameq.png"/>&nbsp &nbsp Frames</a></li>
                 <li><a href="contact"><img id="imge" src="img/contactq.png"/>&nbsp &nbsp Contacts</a></li>
                 <li><a href="about"><img id="imge" src="img/aboutq.png"/>&nbsp &nbsp About</a></li></ul>
@@ -55,27 +55,25 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="row">
-                <div class="col-md-12" style="">
+                <div class="col-md-15 text-center">
+
+		<div class="inline-block" style="height:50px; background-color:#e5e7ea;">
+             <div class="container">
+              <h3 class="h3" style=" margin-left:0px; margin-top: 10px; color: #24b7f2;">
+                   ABOUT</h3>
+             </div>
+        </div>
+
+              <div class="panel panel-default center-block" style="width: 850px; height:450px; background-color: #d7dce5;">
+                    <div class="panel-heading" style="background-color: #e5e7ea;">
+                                
+                    </div>
+              </div>
+
+				</div>
                 </div>
             </div>
         </div>
-        
-        <div class="panel panel-default center-block" style="width: 1000px; height:480px; background-color: #a8b8ae;">
-        <div class="panel-body">
-
-            <div>
-                <img class="img-rounded" src="img/adidassmall.jpg" style="position:absolute; z-index:100; margin-top:5px; margin-left: 20px; height: 200px; width: 170px;">
-                <img class="img-rounded" src="img/pcoms.jpg" style="position:absolute; z-index:100; margin-top: 225px; margin-left: 20px; height: 200px; width: 170px;">
-            </div>
-
-                <img class="img-rounded" src="img/framea.jpg" style="position:absolute; z-index:100; margin-top: 65px; margin-left: 285px; height: 300px; width: 600px;">
-            
-        </div>
-        </div>
-
-        
-        
-        
         <!-- /#page-content-wrapper -->
 <script>
     $("#menu-toggle").click(function(e) {
@@ -85,6 +83,5 @@
 </script>
 
     </div>
-
-</body>
+	</body>
 </html>
