@@ -68,6 +68,25 @@
                     <div class="panel-heading" style="background-color: #e5e7ea;">
                                 
                     </div>
+                    About PhotoLive.
+PhotoLive is the easiest, fastest, and safest way to download Facebook photos and albums. 
+It works by putting an abstraction layer between the app itself and Facebook. 
+Thus, you won't have to...
+
+compromise your account information
+or download large bulky software
+...to simply save albums.
+
+Photolive makes it ridiculously easy to download your own and your friend's albums with the click of a button. It's also completely free! 
+
+Things you should know before using PhotoLive:
+Here are somethings you may want to consider when using PhotoLive.
+
+Use the browser plugins, they are the easiest and fastest way to do this
+If you can't or don't wish to use the browser plugins, you'd have to manually type the url of each photo
+You can only download Content that you can see on your browser, in other words, if you don't have permission to view certain Content, you can not download it
+Make sure all the photos you need are in the albums, because we don't cache or store the photos in our servers so if you missed something you have to do it all over again
+You may notice we don't have sign up, login, or login with facebook buttons. This is for privacy reasons, because we don't keep track of or store any activity that can identify any user.
               </div>
 
 				</div>
